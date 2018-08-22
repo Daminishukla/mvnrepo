@@ -42,11 +42,16 @@
         </snapshotRepository>
 		-->
 	        <repository>
-            <id>mvn_tom_nexa</id>
+            <id>admin</id>
             <name>mvn_tom_nexa</name>
             <url>http://localhost:8081/repository/mvn_tom_nexa/</url>
             <layout>default</layout>
         </repository>
+		<snapshotRepository>
+            <id>admin</id>
+            <name>mvn_tom_nexa</name>
+            <url>http://localhost:8081/repository/mvn_tom_nexa/</url>
+        </snapshotRepository>
     </distributionManagement>
     <build>
     	<finalName>javaee7-simple-sample</finalName>
