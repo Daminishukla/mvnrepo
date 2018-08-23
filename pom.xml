@@ -44,13 +44,13 @@
 	        <repository>
             <id>nexus</id>
             <name>Snapshot</name>
-            <url>http://localhost:8081/repository/mvn_tom_nexa/</url>
+            <url>http://localhost:8081/repository/MVN_repo_tom_nexa/</url>
             <layout>default</layout>
         </repository>
 		<snapshotRepository>
             <id>nexus</id>
             <name>Snapshot</name>
-            <url>http://localhost:8081/repository/mvn_tom_nexa/</url>
+            <url>http://localhost:8081/repository/MVN_repo_tom_nexa/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
